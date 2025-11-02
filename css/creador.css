@@ -1,0 +1,117 @@
+
+#hContainer {
+  background-image: url('../assets/img/baner4.png');
+  background-position: center center;
+}
+
+.creador-contenido {
+  padding: var(--gap);
+}
+
+.creador h2 {
+  color: var(--accent);
+  font-family: "AcadianRunes", sans-serif;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 10px;
+  margin-bottom: var(--gap);
+  text-align: center;
+}
+
+/* Tarjeta Principal del Perfil */
+.perfil {
+  background-color: var(--panel);
+  border: 1px solid var(--wood);
+  border-radius: 5px;
+  padding: var(--gap);
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+  margin-bottom: var(--gap);
+}
+
+.foto {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--accent);
+  flex-shrink: 0;
+}
+
+.info {
+  flex-grow: 1;
+}
+
+.info h3 {
+  color: white;
+  font-family: "AcadianRunes", sans-serif;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.titulo {
+  color: var(--wood);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.meta h4 {
+  color: var(--wood);
+  font-family: "AcadianRunes", sans-serif;
+  border-bottom: 1px solid var(--wood);
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.meta p {
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+/* Estilos de los Botones de Perfil */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btnPerfil {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-family: "AlteHaasGrotesk_Bold", sans-serif;
+  font-size: 15px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btnPerfil:hover {
+  transform: translateY(-2px);
+}
+
+.btnContacto {
+  background-color: var(--accent);
+}
+
+.btnContacto:hover {
+  background-color: #d96647;
+}
+
+.btnGithub {
+  background-color: #333;
+}
+
+.btnGithub:hover {
+  background-color: #555;
+}
+
+.btnTwitter {
+  background-color: #1DA1F2;
+}
+
+.btnTwitter:hover {
+  background-color: #0c85d0;
+}

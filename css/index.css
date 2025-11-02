@@ -1,0 +1,227 @@
+#hContainer {
+  background-image: url('../assets/img/baner.jpg');
+  background-position: center center;
+}
+
+.inicio {
+  flex-grow: 1;
+  background-color: var(--panel);
+  padding: var(--gap);
+  border-radius: 8px;
+  color: var(--muted);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Títulos principales y de la tabla */
+.inicio h2,
+.inicio h3,
+.inicio h4 {
+  color: var(--accent);
+  font-family: "AcadianRunes", sans-serif;
+  border-bottom: 2px solid var(--wood);
+  padding-bottom: 5px;
+  margin-bottom: var(--gap);
+}
+
+.inicio p {
+  text-align: justify;
+  margin-bottom: var(--gap);
+  line-height: 1.6;
+  padding: 0px 8px;
+}
+
+/* Panel de Información*/
+.info {
+  background-color: var(--card);
+  border-left: 5px solid var(--forest);
+  padding: var(--gap);
+  margin: var(--gap) 0;
+  border-radius: 4px;
+}
+
+.info #infoGif {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 25px auto;
+  border: 3px solid var(--wood);
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.biomas {
+  margin-top: var(--gap);
+  margin-bottom: var(--gap);
+  background-color: var(--panel);
+  padding: var(--gap);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.biomas h3 {
+  color: var(--accent);
+  font-family: "AcadianRunes", sans-serif;
+  border-bottom: 2px solid var(--wood);
+  padding-bottom: 5px;
+  margin-bottom: var(--gap);
+}
+
+.biomas p {
+  text-align: justify;
+  margin-bottom: var(--gap);
+  line-height: 1.6;
+  padding: 0 8px;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--gap);
+  justify-content: center;
+}
+
+.card {
+  background-color: var(--card);
+  border: 1px solid var(--forest);
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  max-width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  border: 1px solid var(--forest);
+}
+
+.card h4 {
+  color: white;
+  font-family: "AcadianRunes", sans-serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.card p {
+  font-size: 0.85em;
+  color: var(--muted);
+  margin-bottom: 15px;
+  line-height: 1.4;
+  padding: 0;
+  text-align: center;
+}
+
+.btnBioma {
+  display: inline-block;
+  background-color: var(--forest);
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-family: "AlteHaasGrotesk_Bold", sans-serif;
+  font-size: 15px;
+  transition: background-color 0.2s ease;
+}
+
+.btnBioma:hover {
+  background-color: #497a51;
+}
+
+.jefes {
+  margin-top: var(--gap);
+  margin-bottom: var(--gap);
+  background-color: var(--panel);
+  padding: var(--gap);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.jefes h3 {
+  color: var(--accent);
+  font-family: "AcadianRunes", sans-serif;
+  border-bottom: 2px solid var(--wood);
+  padding-bottom: 5px;
+  margin-bottom: var(--gap);
+}
+
+.jefes p {
+  text-align: justify;
+  margin-bottom: var(--gap);
+  line-height: 1.6;
+  padding: 0 8px;
+}
+
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  justify-content: center;
+}
+
+.jCard {
+  background-color: var(--card);
+  border: 1px solid var(--wood);
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.jCard:hover {
+  transform: translateY(-5px);
+}
+
+.jCard img {
+  max-width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  border: 1px solid var(--accent);
+}
+
+.jCard h4 {
+  color: white;
+  font-family: "AcadianRunes", sans-serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.jCard p {
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 15px;
+  line-height: 1.4;
+  padding: 0;
+  text-align: center;
+}
+
+.btnJefe {
+  display: inline-block;
+  background-color: var(--accent);
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-family: "AlteHaasGrotesk_Bold", sans-serif;
+  font-size: 15px;
+  transition: background-color 0.2s ease;
+}
+
+.btnJefe:hover {
+  background-color: #d96647;
+}
